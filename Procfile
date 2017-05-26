@@ -1,1 +1,1 @@
-web: python fibo.py 10
+web: python fibo.py
