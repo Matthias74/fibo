@@ -1,12 +1,13 @@
 
-
+from subprocess import call
 # Fibonacci numbers module
 
 
 def fib(n):    # write Fibonacci series up to n
 
         print "Bonjour", n
-
+        pwd = call(["pwd"])
+        print pwd
 
 def fib2(n):   # return Fibonacci series up to n
     result = []
