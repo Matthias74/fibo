@@ -1,5 +1,6 @@
 
 from subprocess import call
+from fiba import matt
 # Fibonacci numbers module
 
 
@@ -11,3 +12,5 @@ def fib(n):    # write Fibonacci series up to n
 
 
 fib(3)
+
+matt()
